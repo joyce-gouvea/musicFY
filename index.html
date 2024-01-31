@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="pt-br">
+  <head>
+    <title>MusicFY</title>
+    <meta charset="utf-8">
+    <meta name="author" content="joyce gouvêa">
+    <meta name="description" content="página de treino de código">
+    <meta name="keywords" content="página de treino, musicFY">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h1 class="page-title">
+        MusicFY
+      </h1>
+  
+      <p class="page-subtitle">
+        Qual seu artista musical preferido?
+      </p>
+  
+      <div class="form-wrapper">
+        <input type="text" id="imagemArtista" name="imagemartista" required placeholder="Insira o endereço de imagem em jpg/JPG">
+  
+        <input type="text" id="nomeArtista" name="nomeartista" required placeholder="Insira o nome do(a) artista">
+  
+        <input type="text" id="nomeGenero" name="nomegenero" required placeholder="Insira o gênero musical">
+  
+        <button onClick="adicionarArtista()">Adicionar</button>
+  
+        <button onClick="removerArtista()">Remover</button>
+      </div>
+  
+    </div>
+  
+    <div id="listaArtistas"></div>
+
+    <script src="javascript.js"></script>
+
+  </body>
+</html>

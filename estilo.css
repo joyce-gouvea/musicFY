@@ -1,0 +1,82 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://wallpapers.com/images/hd/emo-aesthetic-music-playlist-2ax1ii1a4wwg7byw-2ax1ii1a4wwg7byw.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
+
+.page-title {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 5px;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: black;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  letter-spacing: 2px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto 5px auto;
+  padding: 10px 15px;
+  width: 250px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #da1e26;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.pNomeGenero {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 4px;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: auto auto 10px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.imgArtista {
+  border-radius: 50%;
+  margin-top: 30px;
+  height: 300px;
+  width: 300px;
+}
